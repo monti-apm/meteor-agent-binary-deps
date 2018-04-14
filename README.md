@@ -1,6 +1,6 @@
-kadira-binary-deps
+agent-binary-deps
 ==================
 
-Binary Dependencies for Kadira
+Binary Dependencies for `montiapm:agent`
 
-This contains binary npm module dependencies to Kadira. You never need to use this package directly.
+This contains binary npm module dependencies for the Monti APM agent. You never need to use this package directly.

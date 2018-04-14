@@ -1,8 +1,8 @@
 Package.describe({
-  "summary": "Binary Dependencies for Kadira",
+  "summary": "Binary Dependencies for montiapm:agent",
   "version": "1.5.0",
-  "git": "https://github.com/meteorhacks/kadira-binary-deps.git",
-  "name": "meteorhacks:kadira-binary-deps"
+  "git": "https://github.com/monti-apm/meteor-agent-binary-deps.git",
+  "name": "montiapm:agent-binary-deps"
 });
 
 Npm.depends({
