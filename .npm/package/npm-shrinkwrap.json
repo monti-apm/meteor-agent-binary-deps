@@ -2,12 +2,14 @@
   "lockfileVersion": 1,
   "dependencies": {
     "nan": {
-      "version": "https://registry.npmjs.org/nan/-/nan-2.14.0.tgz",
-      "integrity": "sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg=="
+      "version": "2.14.2",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.14.2.tgz",
+      "integrity": "sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ=="
     },
     "v8-profiler-next": {
-      "version": "https://registry.npmjs.org/v8-profiler-next/-/v8-profiler-next-1.2.1.tgz",
-      "integrity": "sha512-5YyzfBycl5HA3dx7AnmRosxr7m77OzhCANGl7AkeciHFw03NThHSerCpPgD1bztRvnQhmYrp7sAnwdQm+WwCfQ=="
+      "version": "1.4.0",
+      "resolved": "https://registry.npmjs.org/v8-profiler-next/-/v8-profiler-next-1.4.0.tgz",
+      "integrity": "sha512-eVSgmizhIBpsORuUNGnSCvrwKv4aCHXO2zQvYghjOVQOa9Ch14LEj/VdyiJRupz1npuCd6Tijplnx2n3FxXMmA=="
     }
   }
 }

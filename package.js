@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "v8-profiler-next": "1.2.1"
+  "v8-profiler-next": "1.4.0"
 });
 
 Package.onUse(function(api) {
@@ -16,11 +16,11 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   configure(api);
-  api.versionsFrom('METEOR@1.4-beta.9');
+  api.versionsFrom('METEOR@1.4');
   api.use('tinytest');
-  api.add_files('test.js', 'server');
+  api.addFiles('test.js', 'server');
 });
 
 function configure(api) {
-  api.add_files('index.js', 'server');
+  api.addFiles('index.js', 'server');
 }
