@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "Binary Dependencies for montiapm:agent",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "git": "https://github.com/monti-apm/meteor-agent-binary-deps.git",
   "name": "montiapm:agent-binary-deps"
 });

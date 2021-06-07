@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.0
+
+* Update v8-profiler-next to add support for Meteor 2.3
+
 ## v2.0.0
 
 * Replace v8-profiler with v8-profiler-next to add support for Meteor 1.9
