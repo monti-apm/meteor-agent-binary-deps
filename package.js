@@ -1,12 +1,12 @@
 Package.describe({
   "summary": "Binary Dependencies for montiapm:agent",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "git": "https://github.com/monti-apm/meteor-agent-binary-deps.git",
   "name": "montiapm:agent-binary-deps"
 });
 
 Npm.depends({
-  "v8-profiler-next": "1.4.0"
+  "v8-profiler-next": "1.4.2"
 });
 
 Package.onUse(function(api) {

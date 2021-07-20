@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.1
+
+* Update v8-profiler-next to fix memory leak
+
 ## v2.1.0
 
 * Update v8-profiler-next to add support for Meteor 2.3
