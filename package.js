@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "v8-profiler-next": "1.4.2"
+  "v8-profiler-next": "1.9.0"
 });
 
 Package.onUse(function(api) {
