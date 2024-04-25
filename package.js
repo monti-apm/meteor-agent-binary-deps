@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   configure(api);
-  api.versionsFrom('METEOR@1.4');
+  api.versionsFrom('METEOR@1.9');
   api.use('tinytest');
   api.addFiles('test.js', 'server');
 });
