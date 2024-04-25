@@ -1,0 +1,42 @@
+name: Test
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        meteorRelease:
+          - '--release 1.9'
+          - '--release 1.9.1'
+          - '--release 1.10.2'
+          - '--release 1.11'
+          - '--release 1.12.1'
+          - '--release 2.1.1'
+          - '--release 2.2'
+          - '--release 2.3.2'
+          - '--release 2.4.1'
+          - '--release 2.5.6'
+          - '--release 2.6.1'
+          - '--release 2.7.3'
+          - '--release 2.8.2'
+          - '--release 2.9.0'
+          # Latest version
+          -
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install Dependencies
+        run: |
+          curl https://install.meteor.com | /bin/sh
+          npm i -g @zodern/mtest
+
+      - name: Run Tests
+        run: |
+          NODE_TLS_REJECT_UNAUTHORIZED=0 mtest --package ./ --once ${{ matrix.meteorRelease }}
