@@ -1,4 +1,4 @@
-KadiraBinaryDeps = {};
-KadiraBinaryDeps.require = function(module) {
+MontiBinaryDeps = {};
+MontiBinaryDeps.require = function(module) {
   return Npm.require(module);
 };

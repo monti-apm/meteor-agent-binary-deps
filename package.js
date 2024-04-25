@@ -11,7 +11,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
   configure(api);
-  api.export(['KadiraBinaryDeps']);
+  api.export(['MontiBinaryDeps']);
 });
 
 Package.onTest(function(api) {
