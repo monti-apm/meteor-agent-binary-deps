@@ -16,11 +16,11 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   configure(api);
-  api.versionsFrom('METEOR@1.9');
-  api.use('tinytest');
+  api.use('tinytest@1.1.0||2.0.0-rc300.0');
   api.addFiles('test.js', 'server');
 });
 
 function configure(api) {
+  api.versionsFrom('METEOR@1.9');
   api.addFiles('index.js', 'server');
 }
